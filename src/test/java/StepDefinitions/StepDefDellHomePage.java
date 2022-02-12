@@ -42,8 +42,8 @@ public class StepDefDellHomePage extends TestBaseParentClass {
 	@Then("^click on search button$")
 	public void click_on_search_button() throws Throwable {
 		
-//		JavascriptExecutor obj1 = (JavascriptExecutor) driver;
-//		obj1.executeScript("window.scrollBy(0,50)");
+		JavascriptExecutor obj1 = (JavascriptExecutor) driver;
+		obj1.executeScript("window.scrollBy(0,50)");
 		objOfdellHomeAction.clickonsearchbutton();
      	log.info("clicking on laptop");
 
