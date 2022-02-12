@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression">
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.bangladesh.TestRunnerr.TestRunnerr" /> <!-- Here we have given the name of tha
+											      package name of TestRunner. package
+												  and also the CLASS name under the Package
+												  of TestRunner Package -->
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
+

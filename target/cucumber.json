@@ -1,0 +1,94 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Verify User Can Login",
+        "description": "",
+        "id": "dell-login-verification;verify-user-can-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3088159000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Open Dell Web Application \"\u003cURL\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 27
+                }
+              ],
+              "location": "StepDefDellLogInPage.Open_Dell_WebApplication(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 170851600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click On Sign In Button",
+            "match": {
+              "location": "StepDefDellLogInPage.click_On_Sign_In_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4774900000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click Signin Link",
+            "match": {
+              "location": "StepDefDellLogInPage.click_Signin_Link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 806472400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "enter Username Password And Click Signin",
+            "match": {
+              "location": "StepDefDellLogInPage.enter_Username_Password_And_Click_Signin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6423194500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "verify User Can Login",
+            "match": {
+              "location": "StepDefDellLogInPage.verify_User_Can_Login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@DellLogin"
+          }
+        ]
+      }
+    ],
+    "name": "Dell Login verification",
+    "description": "",
+    "id": "dell-login-verification",
+    "keyword": "Feature",
+    "uri": "DellLogInPage.feature"
+  }
+]
