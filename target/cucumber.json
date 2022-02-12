@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3088159000,
+              "duration": 6195156600,
               "status": "passed"
             },
             "line": 7,
@@ -30,7 +30,7 @@
           },
           {
             "result": {
-              "duration": 170851600,
+              "duration": 299365400,
               "status": "passed"
             },
             "line": 8,
@@ -42,7 +42,7 @@
           },
           {
             "result": {
-              "duration": 4774900000,
+              "duration": 14693647500,
               "status": "passed"
             },
             "line": 9,
@@ -54,7 +54,7 @@
           },
           {
             "result": {
-              "duration": 806472400,
+              "duration": 1466064500,
               "status": "passed"
             },
             "line": 10,
@@ -66,8 +66,66 @@
           },
           {
             "result": {
-              "duration": 6423194500,
+              "duration": 7285915800,
               "status": "passed"
+            },
+            "line": 11,
+            "name": "verify User Can Login",
+            "match": {
+              "location": "StepDefDellLogInPage.verify_User_Can_Login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@DellLogin"
+          }
+        ]
+      }
+    ],
+    "name": "Dell Login verification",
+    "description": "",
+    "id": "dell-login-verification",
+    "keyword": "Feature",
+    "uri": "DellLogInPage.feature"
+  }
+]uctor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:614)\r\n\tat org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:640)\r\n\tat com.bangladesh.PageAction.DellLogInPageAction.clickOnSignInButtons(DellLogInPageAction.java:17)\r\n\tat StepDefinitions.StepDefDellLogInPage.click_On_Sign_In_Button(StepDefDellLogInPage.java:28)\r\n\tat ✽.Then click On Sign In Button(DellLogInPage.feature:8)\r\n",
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "click On Sign In Button",
+            "match": {
+              "location": "StepDefDellLogInPage.click_On_Sign_In_Button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "click Signin Link",
+            "match": {
+              "location": "StepDefDellLogInPage.click_Signin_Link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "enter Username Password And Click Signin",
+            "match": {
+              "location": "StepDefDellLogInPage.enter_Username_Password_And_Click_Signin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
             },
             "line": 11,
             "name": "verify User Can Login",
